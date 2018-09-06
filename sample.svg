@@ -10,7 +10,48 @@
 
 <rect x="2.8" y="1" width="12" height="8" 
                             stroke="blue" fill="lightCyan" stroke-width="0.05"/>
+<rect x="2.85" y="7" width = "11.9" height="2"
+							fill="papayawhip"/>
+<!--firstportion of seaweed-->							
+<def>
+	<g id="leaf1">
+<ellipse cx="3.2" cy="8.8" rx=".1" ry=".18" stroke="darkolivegreen" fill="seagreen"
+					stroke-width=".01" >
+<animate
+		attributeName="cx"
+		keyTimes="0;.25;.5;1" values="3.2;3.15;3.2;3.25" dur="3s"
+		begin="1s"
+		repeatCount="indefinite"
+		/>
+</ellipse>
+	</g>
+
+</def>
+<!--firstportion of seaweed-->
+<def>
+	<g id="leaf2">
+		<ellipse cx="3.1" cy="8.6" rx=".1" ry=".18" stroke="darkolivegreen" fill="seagreen"
+					stroke-width=".01" >
+		<animate
+		attributeName="cx"
+		keyTimes="0;.25;.5;1" values="3.2;3.25;3.2;3.15" dur="3s"
+		begin="1s"
+		repeatCount="indefinite"
+		/>
+</ellipse>
+	</g>
+
+</def>
+
+<def>
+	<g id="seaweed">
+		<use xlink:href="#leaf1"/>
+		<use xlink:href="#leaf2"/>
 
 
-     
+
+
+
+
+
 </svg>
