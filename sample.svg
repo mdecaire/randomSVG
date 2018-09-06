@@ -7,9 +7,15 @@
      width="30cm" height="26cm" 
      viewBox="0 0 15 13">
 
+<defs>
+	<g id="bubbles">
+		<circle cx="4" cy="3" r=".15" fill= "lightcyan"/>
+</g>
+</defs>
+
 
 <rect x="2.8" y="1" width="12" height="8" 
-                            stroke="blue" fill="lightCyan" stroke-width="0.05"/>
+                            stroke="blue" fill="paleturquoise" stroke-width="0.05"/>
 
 <rect x="13.0" y="5.5" width="1.1" height="2" rx=".05" ry=".05" fill="slategray"/>
 <rect x="12.75" y="6.2" width=".75" height=".1"  fill="grey"/>
@@ -20,6 +26,18 @@
 	<rect	x="13.05" y="5.36" width=".15" height=".15"/>
 </g>
 </defs>
+<use xlink:href="#bubbles" />
+<use xlink:href="#bubbles" transform ="translate(-.2, .5)"/>
+<use xlink:href="#bubbles" transform ="translate(.2, 1)"/>
+<use xlink:href="#bubbles" transform ="translate(-.2, 1.5)"/>
+<use xlink:href="#bubbles" transform ="translate(8.4, 0)" />
+<use xlink:href="#bubbles" transform ="translate(8.2, .5)"/>
+<use xlink:href="#bubbles" transform ="translate(8.4, 1)"/>
+<use xlink:href="#bubbles" transform ="translate(8.2, 1.5)"/>
+<use xlink:href="#bubbles" transform ="translate(4.4, 2)" />
+<use xlink:href="#bubbles" transform ="translate(4.2, 2.5)"/>
+<use xlink:href="#bubbles" transform ="translate(4.4, 3)"/>
+<use xlink:href="#bubbles" transform ="translate(4.2, 3.5)"/>
 <use xlink:href="#stone" fill="slategray"/>
 <use xlink:href="#stone" transform="translate(.3,0)" fill="slategray"/>
 <use xlink:href="#stone" transform="translate(.6,0)" fill="slategray"/>
@@ -87,9 +105,112 @@
 		<use xlink:href="#leaf1" transform="translate(.01,-1.25)"/>
 </g>
 </defs>
+<defs>
+	<g id="coral">
+	<ellipse cx="2.95" cy="7" rx=".1" ry=".3"
+		fill="darksalmon" />
+	</g>
+</defs>
+<defs>
+	<g id="coralPlant">
 
-		
+		<use xlink:href="#coral" transform="translate (5.25,-.38) rotate(33)"/>
+		<use xlink:href="#coral" transform="translate (.9,-.07)" />
+		<use xlink:href="#coral" transform="translate (-2.35,2.5) rotate(-30)"/>
+	</g>
+</defs>
 
+<defs>
+	<g id="tail">
+	<path d="M3.7 3 L4 5 L5 3.75 Z" />
+	</g>
+</defs>
+
+<defs>
+<g id="fish">
+<ellipse cx="3.7" cy="5" rx=".6" ry=".25" fill="salmon"/>
+<circle cx="4.2" cy="5" r=".05" fill= "black"/>
+<line x1="3.7" y1="5" x2="3.5" y2="5.05" stroke="sienna" stroke-width=".01"/>
+<use xlink:href="#tail" transform="translate(2.6,4.6) scale(.1,.1)" stroke="salmon" />
+<animateTransform
+		attributeName="transform"
+		type="translate"
+		from ="1"
+		to="10.5"
+		dur="6s"
+		repeatCount="indefinite"
+		/>
+</g>
+</defs>
+
+
+<defs>
+<g id="fish2">
+	<ellipse cx="13.5" cy="5" rx=".6" ry=".25" fill="salmon"/>
+<circle cx="13" cy="5" r=".05" fill= "black"/>
+<line x1="13.7" y1="5" x2="13.5" y2="5.05" stroke="sienna" stroke-width=".01"/>
+<use xlink:href="#tail" transform=" translate(14.65,5.35) scale(.1,.1) rotate (180)" stroke="salmon" />
+<animateTransform
+		attributeName="transform"
+		type="translate"
+		from ="0"
+		to="-10"
+		dur="6s"
+		repeatCount="indefinite"
+		/>
+</g>
+</defs>
+<defs>
+<g id="fish3">
+<ellipse cx="3.7" cy="5" rx=".6" ry=".25" fill="darkgreen"/>
+<circle cx="4.2" cy="5" r=".05" fill= "black"/>
+<line x1="3.7" y1="5" x2="3.5" y2="5.05" stroke="black" stroke-width=".01"/>
+<use xlink:href="#tail" transform="translate(2.6,4.6) scale(.1,.1)" stroke="darkgreen" />
+<animateTransform
+		attributeName="transform"
+		type="translate"
+		from ="1"
+		to="10.5"
+		dur="5s"
+		repeatCount="indefinite"
+		/>
+</g>
+</defs>
+
+
+
+<defs>
+<g id="fish4">
+	<ellipse cx="13.5" cy="5" rx=".6" ry=".25" fill="darkgreen"/>
+<circle cx="13" cy="5" r=".05" fill= "black"/>
+<line x1="13.7" y1="5" x2="13.5" y2="5.05" stroke="black" stroke-width=".01"/>
+<use xlink:href="#tail" transform=" translate(14.65,5.35) scale(.1,.1) rotate (180)" stroke="darkgreen" />
+<animateTransform
+		attributeName="transform"
+		type="translate"
+		from ="0"
+		to="-10"
+		dur="7s"
+		repeatCount="indefinite"
+		/>
+</g>
+</defs>
+
+<use xlink:href="#fish" />
+<use xlink:href="#fish2" transform="translate(0,-1)"/>
+<use xlink:href="#fish3" transform="translate(0,.5)" />
+<use xlink:href="#fish4" transform="translate(0,-.5)" />
+<ellipse cx="6" cy="7.7" rx=".6" ry=".2" fill="silver" />
+<ellipse cx="8" cy="7.2" rx=".6" ry=".2" fill="silver" />
+<ellipse cx="8" cy="7.5" rx=".2" ry=".02" fill="saddlebrown" />
+<ellipse cx="6.5" cy="7.3" rx=".2" ry=".02" fill="saddlebrown" />
+<ellipse cx="9" cy="7" rx=".2" ry=".02" fill="saddlebrown" />
+<ellipse cx="11" cy="7.25" rx=".2" ry=".02" fill="saddlebrown" />
+<ellipse cx="10" cy="7.05" rx=".6" ry=".2" fill="silver" />
+<ellipse cx="12.15" cy="7.25" rx=".6" ry=".2" fill="silver" />
+<use xlink:href="#coralPlant" />
+<use xlink:href="#coralPlant" transform= "translate(2,0)"/>
+<use xlink:href="#coralPlant" transform= "translate(9,0)"/>
 <use xlink:href="#seaweed" />
 <use xlink:href="#seaweed2" transform="translate(.22,.05)"/>
 <use xlink:href="#seaweed2" transform="translate(.52,.05)"/>
