@@ -10,10 +10,31 @@
 
 <rect x="2.8" y="1" width="12" height="8" 
                             stroke="blue" fill="lightCyan" stroke-width="0.05"/>
+
+<rect x="13.0" y="5.5" width="1.1" height="2" rx=".05" ry=".05" fill="slategray"/>
+<rect x="12.75" y="6.2" width=".75" height=".1"  fill="grey"/>
 <rect x="2.85" y="7" width = "11.9" height="2"
 							fill="papayawhip"/>
+<defs>
+<g id="stone">						
+	<rect	x="13.05" y="5.36" width=".15" height=".15"/>
+</g>
+</defs>
+<use xlink:href="#stone" fill="slategray"/>
+<use xlink:href="#stone" transform="translate(.3,0)" fill="slategray"/>
+<use xlink:href="#stone" transform="translate(.6,0)" fill="slategray"/>
+<use xlink:href="#stone" transform="translate(.89,0)" fill="slategray"/>
+<use xlink:href="#stone" transform="translate(.65,1)" fill="grey"/>
+<use xlink:href="#stone" transform="translate(.35,.65)" fill="grey"/>
+<use xlink:href="#stone" transform="translate(0,.2)" fill="grey"/>
+<use xlink:href="#stone" transform="translate(.2,.35)" fill="grey"/>
+<use xlink:href="#stone" transform="translate(.59,1.3)" fill="grey"/>
+<use xlink:href="#stone" transform="translate(.9,1.3)" fill="grey"/>
+<use xlink:href="#stone" transform="translate(-.04,.45)" fill="grey"/>
+<rect x="13.2" y="6.5" width=".2" height=".25" fill="black"/>
+<rect x="13.75" y="5.75" width=".2" height=".25" fill="black"/>
 <!--firstportion of seaweed-->							
-<def>
+<defs>
 	<g id="leaf1">
 <ellipse cx="3.2" cy="8.8" rx=".08" ry=".18" stroke="darkolivegreen" fill="seagreen"
 					stroke-width=".01" >
@@ -26,9 +47,9 @@
 </ellipse>
 	</g>
 
-</def>
+</defs>
 <!--firstportion of seaweed-->
-<def>
+<defs>
 	<g id="leaf2">
 		<ellipse cx="3.1" cy="8.6" rx=".08" ry=".18" stroke="darkolivegreen" fill="seagreen"
 					stroke-width=".01" >
@@ -41,9 +62,9 @@
 </ellipse>
 	</g>
 
-</def>
+</defs>
 
-<def>
+<defs>
 	<g id="seaweed">
 		<use xlink:href="#leaf1"/>
 		<use xlink:href="#leaf2"/>
@@ -53,9 +74,9 @@
 		<use xlink:href="#leaf2" transform="translate(.015,-.85)"/>
 		
 </g>
-</def>
+</defs>
 
-<def>
+<defs>
 	<g id="seaweed2">
 	<use xlink:href="#leaf1"/>
 		<use xlink:href="#leaf2"/>
@@ -65,7 +86,9 @@
 		<use xlink:href="#leaf2" transform="translate(.015,-.85)"/>
 		<use xlink:href="#leaf1" transform="translate(.01,-1.25)"/>
 </g>
-</def>
+</defs>
+
+		
 
 <use xlink:href="#seaweed" />
 <use xlink:href="#seaweed2" transform="translate(.22,.05)"/>
@@ -86,5 +109,31 @@
 <use xlink:href="#seaweed2" transform="translate(4.32,.05)"/>
 <use xlink:href="#seaweed" transform="translate(4.62,.05)"/>
 <use xlink:href="#seaweed" transform="translate(4.82,.05)"/>
-
+<use xlink:href="#seaweed2" transform="translate(5.12,.05)"/>
+<use xlink:href="#seaweed" transform="translate(5.32,.05)"/>
+<use xlink:href="#seaweed2" transform="translate(5.62,.05)"/>
+<use xlink:href="#seaweed2" transform="translate(5.82,.05)"/>
+<use xlink:href="#seaweed" transform="translate(6.12,.05)"/>
+<use xlink:href="#seaweed2" transform="translate(6.32,.05)"/>
+<use xlink:href="#seaweed" transform="translate(6.52,.05)"/>
+<use xlink:href="#seaweed" transform="translate(6.72,.05)"/>
+<use xlink:href="#seaweed2" transform="translate(7.02,.05)"/>
+<use xlink:href="#seaweed2" transform="translate(7.22,.05)"/>
+<use xlink:href="#seaweed" transform="translate(7.42,.05)"/>
+<use xlink:href="#seaweed2" transform="translate(7.62,.05)"/>
+<use xlink:href="#seaweed2" transform="translate(7.82,.05)"/>
+<use xlink:href="#seaweed" transform="translate(8.12,.05)"/>
+<use xlink:href="#seaweed2" transform="translate(8.32,.05)"/>
+<use xlink:href="#seaweed2" transform="translate(8.62,.05)"/>
+<use xlink:href="#seaweed" transform="translate(8.82,.05)"/>
+<use xlink:href="#seaweed2" transform="translate(9.12,.05)"/>
+<use xlink:href="#seaweed" transform="translate(9.32,.05)"/>
+<use xlink:href="#seaweed2" transform="translate(9.62,.05)"/>
+<use xlink:href="#seaweed2" transform="translate(9.82,.05)"/>
+<use xlink:href="#seaweed" transform="translate(10.12,.05)"/>
+<use xlink:href="#seaweed2" transform="translate(10.33,.05)"/>
+<use xlink:href="#seaweed" transform="translate(10.63,.05)"/>
+<use xlink:href="#seaweed2" transform="translate(10.82,.05)"/>
+<use xlink:href="#seaweed2" transform="translate(11.12,.05)"/>
+<use xlink:href="#seaweed" transform="translate(11.32,.05)"/>
 </svg>
